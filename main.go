@@ -11,9 +11,9 @@ var VERSION = "0.8.20-src" //set with ldflags
 
 func main() {
 	s := server.Server{
-		Title:      "Cloud Torrent",
+		Title:      "Clamtalea",
 		Port:       3000,
-		ConfigPath: "cloud-torrent.json",
+		ConfigPath: "Clamtalea.json",
 	}
 
 	o := opts.New(&s)

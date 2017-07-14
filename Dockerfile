@@ -2,10 +2,10 @@ FROM alpine:3.5
 MAINTAINER dev@jpillora.com
 # prepare go env
 ENV GOPATH /go
-ENV NAME cloud-torrent
+ENV NAME Clamtalea
 ENV PACKAGE github.com/jpillora/$NAME
 ENV PACKAGE_DIR $GOPATH/src/$PACKAGE
-ENV GOLANG_VERSION 1.8.1
+ENV GOLANG_VERSION 1.8.3
 ENV GOLANG_SRC_URL https://golang.org/dl/go$GOLANG_VERSION.src.tar.gz
 ENV GOLANG_SRC_SHA256 33daf4c03f86120fdfdc66bddf6bfff4661c7ca11c5da473e537f4d69b470e57
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH

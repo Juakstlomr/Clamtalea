@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Aithaks/Kmanst/engine"
-	"github.com/Aithaks/Kmanst/static"
+	"github.com/Juakstlomr/Clamtalea/engine"
+	"github.com/Juakstlomr/Clamtalea/static"
 	"github.com/jpillora/cookieauth"
 	"github.com/jpillora/gziphandler"
 	"github.com/jpillora/requestlog"
